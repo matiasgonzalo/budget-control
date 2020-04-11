@@ -1,0 +1,10 @@
+.root {
+    width: '100%';
+    max-width: 360px;
+    background-color: #fff,
+}
+
+.avatar {
+    margin: 4px;
+    background-color: #269c1c !important;
+}

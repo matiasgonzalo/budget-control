@@ -1,0 +1,32 @@
+.paper {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin: 4px;
+    background-color: #303f9f !important;
+}
+
+.form {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 2em;
+}
+
+.submit {
+    margin: 32px 0px 16px;
+}
+
+.icon {
+    color: #fff;
+}
+
+.textarea {
+    max-width:100%;
+    min-width:100%;
+    margin-top:1em;
+    margin-bottom:1em;
+}

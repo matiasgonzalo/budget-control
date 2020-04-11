@@ -1,0 +1,42 @@
+.root {
+  flex-grow: 1;
+  margin-top: 2em;
+}
+
+.paper {
+  padding: 2px;
+  text-align: center;
+  color: rgba(0,0,0,0.54);
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.demo {
+  background-color: #fff;
+}
+
+.title {
+  font-weight: 500 !important;
+  font-family: Raleway !important;
+  font-style: normal !important;
+  font-display: swap;
+}
+
+.subtitle {
+  font-weight: 400 !important;
+}
+
+.drawerPaper {
+  width: drawerWidth;
+}
+
+.appBar {
+  background-color: #f57c00 !important;
+}
+
+.refreshButton {
+  margin-top: 1em !important;
+  background-color: green !important;
+}
