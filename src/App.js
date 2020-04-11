@@ -46,11 +46,13 @@ class App extends React.Component
 
   componentDidMount() {
     let presupuestoIncial = JSON.parse(localStorage.getItem('presupuesto'));
+    let displayFormInputPresupuesto = JSON.parse(localStorage.getItem('displayFormInputPresupuesto'));
     if(!presupuestoIncial) {
       presupuestoIncial = '';
       this.setState(() => {
         return {
-          presupuesto: presupuestoIncial
+          presupuesto: presupuestoIncial,
+          displayFormInputPresupuesto: displayFormInputPresupuesto
         }
       })
     }else{
@@ -90,12 +92,6 @@ class App extends React.Component
         }
       })
     }
-    let displayFormInputPresupuesto = JSON.parse(localStorage.getItem('displayFormInputPresupuesto'));
-    this.setState(() => {
-      return {
-        displayFormInputPresupuesto: displayFormInputPresupuesto
-      }
-    })
   }
 
   componentDidUpdate() {
